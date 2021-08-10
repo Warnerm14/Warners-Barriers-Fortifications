@@ -46,7 +46,7 @@ class CfgFunctions
 class cfgMagazines
 {
 	class CA_Magazine;
-	class warn_baseItem_plp : CA_Magazine
+	class warn_baseItem : CA_Magazine
 	{
 		mass = 1;
 		scope = 0;
@@ -62,7 +62,7 @@ class cfgMagazines
 		picture = "\Warners-Barriers-Fortifications\textures\blank_ico.paa";
 	};
 	
-	class warn_sandBagWall_Long_Tan: warn_baseItem_plp
+	class warn_sandBagWall_Long_Tan: warn_baseItem
 	{
 		mass = 4;
 		scope = 2;
@@ -72,7 +72,7 @@ class cfgMagazines
 		warner_pos = "[0, 2, 0.4]";
 	};
 	
-	class warn_sandBagWall_Round_Tan: warn_baseItem_plp
+	class warn_sandBagWall_Round_Tan: warn_baseItem
 	{
 		mass = 5;
 		scope = 2;
@@ -83,7 +83,7 @@ class cfgMagazines
 		warner_dir = 180;
 	};
 	
-	class warn_sandBagWall_Short_Tan: warn_baseItem_plp
+	class warn_sandBagWall_Short_Tan: warn_baseItem
 	{
 		mass = 2;
 		scope = 2;
@@ -93,7 +93,7 @@ class cfgMagazines
 		warner_pos = "[0, 2, 0.4]";
 	};
 	
-	class warn_sandBagWall_Long_Green: warn_baseItem_plp
+	class warn_sandBagWall_Long_Green: warn_baseItem
 	{
 		mass = 4;
 		scope = 2;
@@ -103,7 +103,7 @@ class cfgMagazines
 		warner_pos = "[0, 2, 0.4]";
 	};
 	
-	class warn_sandBagWall_Round_Green: warn_baseItem_plp
+	class warn_sandBagWall_Round_Green: warn_baseItem
 	{
 		mass = 5;
 		scope = 2;
@@ -114,7 +114,7 @@ class cfgMagazines
 		warner_dir = 180;
 	};
 	
-	class warn_sandBagWall_Short_Green: warn_baseItem_plp
+	class warn_sandBagWall_Short_Green: warn_baseItem
 	{
 		mass = 2;
 		scope = 2;
@@ -124,7 +124,7 @@ class cfgMagazines
 		warner_pos = "[0, 2, 0.4]]";
 	};
 	
-	class warn_czechHedgehog_New: warn_baseItem_plp
+	class warn_czechHedgehog_New: warn_baseItem
 	{
 		mass = 9;
 		scope = 2;
@@ -134,7 +134,7 @@ class cfgMagazines
 		warner_pos = "[0, 2, 0.8]";
 	};
 	
-	class warn_czechHedgehog_Old: warn_baseItem_plp
+	class warn_czechHedgehog_Old: warn_baseItem
 	{
 		mass = 9.05;
 		scope = 2;
@@ -144,7 +144,7 @@ class cfgMagazines
 		warner_pos = "[0, 2, 0.8]";
 	};
 	
-	class warn_junkBarricade: warn_baseItem_plp
+	class warn_junkBarricade: warn_baseItem
 	{
 		mass = 8;
 		scope = 2;
@@ -154,7 +154,7 @@ class cfgMagazines
 		warner_pos = "[0, 4, 0]";
 	};
 	
-	class warn_sandBagBarricade_Short_Tan: warn_baseItem_plp
+	class warn_sandBagBarricade_Short_Tan: warn_baseItem
 	{
 		mass = 6;
 		scope = 2;
@@ -165,7 +165,7 @@ class cfgMagazines
 		warner_dir = 180;
 	};
 	
-	class warn_sandBagWall_Tall_Tan: warn_baseItem_plp
+	class warn_sandBagWall_Tall_Tan: warn_baseItem
 	{
 		mass = 10;
 		scope = 2;
@@ -176,7 +176,7 @@ class cfgMagazines
 		warner_dir = 180;
 	};
 	
-	class warn_sandBagWall_Tall_Tan_Hole: warn_baseItem_plp
+	class warn_sandBagWall_Tall_Tan_Hole: warn_baseItem
 	{
 		mass = 10;
 		scope = 2;
